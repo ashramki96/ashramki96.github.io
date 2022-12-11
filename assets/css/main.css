@@ -43,6 +43,34 @@ blockquote, q {
 	quotes: none;
 }
 
+.contactlinks {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.logos {
+	padding: none;
+	margin: none;
+}
+
+.footerlogo {
+	width: 10%;
+	cursor: pointer;
+}
+
+.logogit {
+	width: 10%;
+	cursor: pointer;
+}
+
+.logoangel{
+	width: 12%;
+	cursor: pointer;
+	padding: none;
+}
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -200,7 +228,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -4033,6 +4061,17 @@ input, select, textarea {
 
 /* Footer */
 
+#footer {
+	background-color: #cdced181;
+			/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
+			margin-top: -6.5em;
+			padding-top: 6.5em;
+}
+
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
@@ -4049,10 +4088,13 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		align-items: center;
+		
 	}
 
 		#footer .inner > * {
 			width: 100%;
+			
 		}
 
 		#footer .inner form {
@@ -4096,8 +4138,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #84889781;
+			/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 			background-size: auto,
  cover;
 			background-position: center,
