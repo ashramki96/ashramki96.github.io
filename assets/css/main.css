@@ -65,6 +65,11 @@ blockquote, q {
 	cursor: pointer;
 }
 
+.name {
+	font-weight: bold;
+	text-align: center;
+}
+
 .logoangel{
 	width: 12%;
 	cursor: pointer;
